@@ -1,0 +1,50 @@
+/*NULL*/
+h1,h2,h3,p{margin: 0;}
+/*NULL*/
+
+.wrapper{
+    max-width: 670px;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0px;
+    background-color: #46b1de;
+    margin-bottom: 15px;
+}
+.article{
+    background-color: olivedrab;
+}
+.article__title{
+    margin-bottom: 10px;
+}
+.article__title h2{
+    text-align: center;
+}
+
+.article_description {
+    border:5px solid ;
+    padding:8px;
+}
+
+.article_button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.article_button button{
+    background-color: rgb(220, 169, 74);
+    border:none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin:15px
+}
+
+.article_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.article_info p {
+    font-weight: bold;
+}
